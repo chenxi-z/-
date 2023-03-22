@@ -2,7 +2,9 @@
 "source_localization\startup_stm32f411xe.o"
 "source_localization\main.o"
 "source_localization\gpio.o"
+"source_localization\dma.o"
 "source_localization\i2s.o"
+"source_localization\usart.o"
 "source_localization\stm32f4xx_it.o"
 "source_localization\stm32f4xx_hal_msp.o"
 "source_localization\stm32f4xx_hal_i2s.o"
@@ -22,7 +24,10 @@
 "source_localization\stm32f4xx_hal_exti.o"
 "source_localization\stm32f4xx_hal_tim.o"
 "source_localization\stm32f4xx_hal_tim_ex.o"
+"source_localization\stm32f4xx_hal_uart.o"
 "source_localization\system_stm32f4xx.o"
+"..\Middlewares\ST\ARM\DSP\Lib\arm_cortexM4l_math.lib"
+"source_localization\xcorr.o"
 --strict --scatter "Source_Localization\Source_Localization.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
